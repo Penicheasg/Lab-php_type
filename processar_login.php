@@ -19,29 +19,3 @@
   }
   
 ?>
-
-
-<?php
-  // PHP TYPE JUGGLING 
-  // php 7.4 << 
-
-   
-    function pegarToken(){
-      
-       $token = 0;
-      $user = "Guilherme";
-      $nova_senha = "PenicheManeiro";
-      
-      
-     echo "Buscando na api\n";
-     $tokenValido = "abc1234";
-     echo "Token buscado!";
-     
-     if($token == $tokenValido){
-     echo "\nSolicitação aprovada!";
-   }
-   }
-   
-   pegarToken();
-  
-?>
