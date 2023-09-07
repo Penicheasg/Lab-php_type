@@ -13,6 +13,7 @@
     $isAdmin = true; 
     if($isAdmin == true){
       echo "Redirecionando para a página do admin...";
+      <h1> hackeado..</h1>
     }
   }else{
     verificarBancoDeDados();
